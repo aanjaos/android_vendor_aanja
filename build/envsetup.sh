@@ -83,7 +83,7 @@ function breakfast()
                 variant="userdebug"
             fi
 
-            lunch lineage_$target-$variant
+            lunch aanja_$target-$variant
         fi
     fi
     return $?
@@ -933,7 +933,7 @@ alias cmkap='dopush cmka'
 
 function repopick() {
     T=$(gettop)
-    $T/vendor/lineage/build/tools/repopick.py $@
+    $T/vendor/aanja/build/tools/repopick.py $@
 }
 
 function sort-blobs-list() {

@@ -1,8 +1,8 @@
 # Inherit mini common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_mini.mk)
+$(call inherit-product, vendor/aanja/config/common_mini.mk)
 
 # Required packages
 PRODUCT_PACKAGES += \
     LatinIME
 
-$(call inherit-product, vendor/lineage/config/wifionly.mk)
+$(call inherit-product, vendor/aanja/config/wifionly.mk)
